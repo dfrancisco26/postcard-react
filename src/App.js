@@ -32,7 +32,7 @@ function App() {
         <CityNameInput setCityName = {setCityName} />
         {/* here, the CityNameInput component takes in the setCityName state handler function */}
         <section className='dropdowns'>
-          <WaterfrontDropdown setWaterfrontId = {setSkylineId} />
+          <WaterfrontDropdown setWaterfrontId = {setWaterfrontId} />
           <SkylineDropdown setSkylineId = {setSkylineId} />
           <CastleDropdown setCastleId = {setCastleId} />          
           {/* 

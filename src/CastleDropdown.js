@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CastleDropdown(setCastleId) {
+export default function CastleDropdown({ setCastleId }) {
   return (
     <div>
       Select a Castle
