@@ -1,7 +1,9 @@
-export default function SloganForm(props) {
+import { useState } from 'react';
+
+export default function SloganForm({ setSloganArr, sloganArr }) {
   // React forms are a pain! 
   // Track the sloganInput form state with a useState hook
-    
+  const [sloganInput, setSloganInput] = useState([sloganArr]);
   function handleSubmit(e) {
     e.preventDefault();
 
